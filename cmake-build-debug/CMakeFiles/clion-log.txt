@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/choisangmin/Documents/SLAM_DUNK/programmers_slam_project_template -B /Users/choisangmin/Documents/SLAM_DUNK/programmers_slam_project_template/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/choisangmin/Documents/SLAM_DUNK/CI_CD_TDD -B /Users/choisangmin/Documents/SLAM_DUNK/CI_CD_TDD/cmake-build-debug
 -- The CXX compiler identification is AppleClang 13.1.6.13160021
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
@@ -23,5 +23,5 @@ Call Stack (most recent call first):
 
 
 -- Configuring incomplete, errors occurred!
-See also "/Users/choisangmin/Documents/SLAM_DUNK/programmers_slam_project_template/cmake-build-debug/CMakeFiles/CMakeOutput.log".
-See also "/Users/choisangmin/Documents/SLAM_DUNK/programmers_slam_project_template/cmake-build-debug/CMakeFiles/CMakeError.log".
+See also "/Users/choisangmin/Documents/SLAM_DUNK/CI_CD_TDD/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/choisangmin/Documents/SLAM_DUNK/CI_CD_TDD/cmake-build-debug/CMakeFiles/CMakeError.log".
