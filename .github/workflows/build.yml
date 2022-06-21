@@ -5,8 +5,9 @@ on:
     branches:
       - main
       - development
+      - test
   pull_request:
-    branches: [ development ]
+    branches: [ test ]
 env:
   GET_REPO: export REPO=${GITHUB_REPOSITORY#*/}
   GET_HASH: export HASH=${GITHUB_SHA}
