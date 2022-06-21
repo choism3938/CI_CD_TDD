@@ -2,9 +2,9 @@ name: github_actions_gtest_example-Release
 
 on:
   push:
-    branches: [ master ]
+    branches: [ CI/gtest ]
   pull_request:
-    branches: [ master ]
+    branches: [ CI/gtest ]
 
 jobs:
   build:
