@@ -19,5 +19,5 @@ jobs:
       - name : Run clang-format check script
         run: |
           echo "=== clang-format check start ==="
-          ./run-clang-format.py --style file -r modules
+          ./run-clang-format.py --style file -r -i modules
           echo "=== clang-format check finished ==="
