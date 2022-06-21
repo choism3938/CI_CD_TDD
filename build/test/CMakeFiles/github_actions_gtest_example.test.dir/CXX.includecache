@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/github_actions_gtest_example/github_actions_gtest_example.h
+iostream
+-
+
+/home/selfdriving/slam_dunk/project/github_actions_gtest_example/test/AllTests.cpp
+gtest/gtest.h
+-
+
+/home/selfdriving/slam_dunk/project/github_actions_gtest_example/test/github_actions_gtest_exampleTest.cpp
+github_actions_gtest_example/github_actions_gtest_example.h
+-
+gtest/gtest.h
+-
+
